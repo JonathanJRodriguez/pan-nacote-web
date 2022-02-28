@@ -6,7 +6,100 @@
 <body>
     <img src="./assets/img/logo.png">
     <h1>Bienvenido a Pan Nacote Pastelerías</h1>
-    <p>¡Aqui podrá encontrar todo nuestro menú!</p>
-
+    <a href="./chefPage.html">Soy el pastelero</a>
+    <hr>
+    <h2>¡Aqui podrá encontrar todo nuestro menú!</h2>
+    <h3>Sabores de pan</h3>
+    <ul>
+        <li>Fresa   ..................................       $100</li>
+        <li>Chocolate   ..................................   $100</li>
+        <li>Vainilla    ..................................   $100</li>
+        <li>Cajeta  ..................................       $120</li>
+        <li>Naranja ..................................       $120</li>
+        <li>Tres Leches ..................................   $150</li>
+        <li>Combinado (2 sabores) ..................................   $180</li>
+        <li>Combinado (3+ sabores) ..................................   $250</li>                
+    </ul>
+    <br>
+    <h3>Adornos</h3>
+    <ul>
+        <li>Chispas de chocolate    ....................................... $15</li>
+        <li>Texto   ....................................... $15</li>
+        <li>Figuras de betún    ....................................... $15</li>
+        <li>Rebanadas de fruta (durazno, fresas, kiwi, cerezas)....................................... $35</li>
+        <li>Hojuelas de chocolate   ....................................... $45</li>
+        <li>Imagen personalizada    ....................................... $80</li>   
+        <li>Figurín de plástico    ....................................... $120</li>       
+    </ul>
+    <br>
+    <h3>Betún</h3>
+    <ul>
+        <li>Blanco    ....................................... $30</li>
+        <li>¡Cualquier color!   ....................................... $40</li>
+    </ul>
+    <br>
+    <h3>Sugerencias del Pastelero</h3>
+    <dl>
+        <dt>Pastel sabor Rojo ................................... $175</dt>
+        <dd>- Pan sabor fresa con betún color rojo pasión y rebanadas de fresa como adornos.</dd>
+        <dt>Pastel Vocho tuneado ................................... $240</dt>
+        <dd>- Pan sabor naranja con betún verde chillón y una imagen del vocho tuneado de tus sueños.</dd>
+        <dt>Pastel Maruchan con coca ................................... $245</dt>
+        <dd>- Pan sabor chocolate con betún blanco y una imagen de tu maruchan favorita con frutas mixtas de adorno.</dd>
+    </dl>
+    <br>
+    <hr>
+    <h1>Haz aqui tu pedido!</h1>
+    <form>
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="John"><br>
+        <label for="lname">Apellido:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+        <p>Elige el sabor de tu pan:</p>
+        <input type="checkbox" id="sabor1" name="sabor1" value="fresa">
+        <label for="sabor1">Fresa</label><br>
+        <input type="checkbox" id="sabor2" name="sabor2" value="chocolate">
+        <label for="sabor2">Chocolate</label><br>
+        <input type="checkbox" id="sabor3" name="sabor3" value="vainilla">
+        <label for="sabor3">Vainilla</label><br>
+        <input type="checkbox" id="sabor4" name="sabor4" value="cajeta">
+        <label for="sabor4">Cajeta</label><br>
+        <input type="checkbox" id="sabor5" name="sabor5" value="naranja">
+        <label for="sabor5">Naranja</label><br>
+        <input type="checkbox" id="sabor6" name="sabor6" value="tresleches">
+        <label for="sabor6">Tres Leches</label>
+        <br>
+        <p>Elige los adornos de tu pastel:</p>
+        <input type="checkbox" id="adorno1" name="adorno1" value="ch-chocolate">
+        <label for="adorno1">Chispas de chocolate</label><br>
+        <input type="checkbox" id="adorno2" name="adorno2" value="texto">
+        <label for="adorno2">Texto</label>
+        <input type="text" id="adorno2txt" name="adornor2txt" placeholder="¿Qué mensaje?"><br>
+        <input type="checkbox" id="adorno3" name="adorno3" value="betun">
+        <label for="adorno3">Figuras de betún</label><br>
+        <input type="checkbox" id="adorno4" name="adorno4" value="fruta">
+        <label for="adorno4">Rebanadas de fruta</label>
+        <input type="text" id="adorno4txt" name="adornor4txt" placeholder="¿Cuáles frutas?"><br>
+        <input type="checkbox" id="adorno5" name="adorno5" value="hoj-chocolate">
+        <label for="adorno5">Hojuelas de chocolate</label><br>
+        <input type="checkbox" id="adorno6" name="adorno6" value="imagen">
+        <label for="adorno6">Imagen personalizada</label>
+        <input type="file" id="adorno6img" name="adorno6img" ><br>
+        <input type="checkbox" id="adorno7" name="adorno7" value="figura">
+        <label for="adorno6">Figurín de plástico</label>
+        <br> 
+        <p>Elige el color del betún:</p>
+        <input type="radio" id="blanco" name="betun" value="blanco">
+        <label for="blanco">Blanco</label><br>
+        <input type="radio" id="color" name="betun" value="color">
+        <label for="color">Otro color</label>
+        <label for="sel-color">:</label>
+        <input type="color" id="sel-color" name="sel-color">
+        <br>
+        <label for="descripcion">Describe con detalle como te gustaría que se viera tu pastel o adjunta una imagen de referencia:</label><br>
+        <input type="text" id="descripcion" name="descripcion" size="300" width="50"><br>
+        <br>
+        <input type="submit" value="Confirmar Pedido">
+    </form>
 </body>
 </html>
