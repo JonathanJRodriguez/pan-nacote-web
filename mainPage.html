@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pan Nacote Pastelerías</title>
+        <style></style>
+        <link rel="stylesheet" href="">
+        <script></script>
     </head>
 <body>
     <img src="./assets/img/logo.png">
@@ -50,11 +56,28 @@
     <br>
     <hr>
     <h1>Haz aqui tu pedido!</h1>
-    <form>
+    <form action="pedido.js">
+        <p>Datos de contacto.</p>
         <label for="fname">Nombre:</label><br>
         <input type="text" id="fname" name="fname" placeholder="John"><br>
         <label for="lname">Apellido:</label><br>
-        <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+        <input type="text" id="lname" name="lname" placeholder="Doe"><br>
+        <label for="mail">Email:</label><br>
+        <input type="email" id="mail" name="mail" placeholder="cliente@email.com"><br>
+        <label for="phone">Teléfono:</label><br>
+        <input type="number" id="phone" name="phone" placeholder="5512345678"><br>
+        <p>Elige una de las sugerencias del pastelero o personaliza tu propio pastel!</p>
+        <input type="radio" id="sug-chef" name="tipo-pedido" value="sug-chef">
+        <label for="sug-chef">Sugerencia del pastelero</label><br>
+        <input type="radio" id="custom" name="tipo-pedido" value="custom">
+        <label for="custom">Personalizado</label><br>
+        <p>Elige tu opción favorita:</p>
+        <input type="radio" id="chef1" name="opcion-pastel" value="chef1">
+        <label for="chef1">Pastel sabor rojo</label><br>
+        <input type="radio" id="chef2" name="opcion-pastel" value="chef2">
+        <label for="chef2">Pastel Vocho tuneado</label><br>
+        <input type="radio" id="chef3" name="opcion-pastel" value="chef3">
+        <label for="chef3">Pastel Maruchan con coca</label><br>
         <p>Elige el sabor de tu pan:</p>
         <input type="checkbox" id="sabor1" name="sabor1" value="fresa">
         <label for="sabor1">Fresa</label><br>
@@ -98,8 +121,20 @@
         <br>
         <label for="descripcion">Describe con detalle como te gustaría que se viera tu pastel o adjunta una imagen de referencia:</label><br>
         <input type="text" id="descripcion" name="descripcion" size="300" width="50"><br>
+        <input type="file" id="descripcionimg" name="descripcionimg"><br>
         <br>
-        <input type="submit" value="Confirmar Pedido">
+        <p>Total:</p>
+        <p>$150.00</p>
+        <input type="submit" value="Confirmar y Pagar">
+        <input type="reset" value="Comenzar de nuevo">
     </form>
+    <br><br>
+    <hr>
+    <footer>
+        <p>Pan Nacote Pastelerías.</p>
+        <p>Horarios de atención: Martes a Domingo de 10 A.M. a 8 P.M.</p>
+        <p>Teléfono:5512534567</p>
+        <p>Dirección: Dr. Barragán 188, Doctores, Cuauhtémoc, 06720 Ciudad de México, CDMX</p>
+      </footer> 
 </body>
 </html>
