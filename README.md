@@ -18,7 +18,7 @@ En esta página se encuentran los siguientes elementos en orden de aparición:
 ### chefPage o página de control de inventarios.
 En esta página se muestran los ingredientes y consumibles que requiere el negocio para funcionar, tambien se muestra una tabla con las siguientes columnas:
 
-| ID  | Nombre  | Apellido  | Pago  | Ingredientes  | Descripción  | Estado  |
+| ID  | Nombre  | Teléfono  | Email  | Pedido  | Descripción  | Estado  |
 |---|---|---|---|---|---|---|
 | 1  |  usuario | apellido  |  Completado | Pan fresa, Betún Blanco, texto: Felicidades  | Quiero un pastel de cumpleaños que sea sabor fresa pero color blanco y que tenga un mensaje de Felicidades en la parte de arriba  | En preparación  |
 
