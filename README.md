@@ -23,3 +23,6 @@ En esta página se muestran los ingredientes y consumibles que requiere el negoc
 | 1  |  usuario | apellido  |  Completado | Pan fresa, Betún Blanco, texto: Felicidades  | Quiero un pastel de cumpleaños que sea sabor fresa pero color blanco y que tenga un mensaje de Felicidades en la parte de arriba  | En preparación  |
 
 Por el momento el administrador solo podría observar el estado de los pedidos, pero eventualmente se añadirá la función de marcar como completo, confirmar entrega, para un seguimiento más detallado.
+
+# Pop ups
+Los pop ups adjuntos aqui son una muestra de la información que deberían mostrar, por el momento estos no son accesibles desde ninguna página, deben abrirse de forma independiente para poderse consultar.
