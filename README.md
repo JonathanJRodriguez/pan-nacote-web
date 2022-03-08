@@ -1,7 +1,7 @@
 # pan-nacote-web.
 Página web de pastelería ficticia resultado de la práctica de HTML del curso de Innovacción Virtual, la siguiente descripción es hipotética y no refleja ni representa a ningún negocio que pudiera llamarse parecido.
 
-[Pagina Inicio](https://github.com/JonathanJRodriguez/pan-nacote-web/main/mainPage.html)
+[Pagina Inicio](/mainPage.html)
 
 # Resumen.
 Esta página web presenta al negocio "Pan Nacote Pastelerías", el cuál es un negocio creado por un grupo de amigos con ganas de ofrecer pasteles con un tema más relajado, libre de prejuicios y con temáticas atractivas al público joven de hoy.
